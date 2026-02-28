@@ -1,0 +1,84 @@
+﻿📌 Linear Equation Solver (C++)
+
+A C++ console application to parse, manipulate, and solve systems of linear equations (up to 3x3).
+
+🚀 Features
+
+Parse linear equations from user input
+
+Display number of variables
+
+Print any equation
+
+Print a column of coefficients
+
+Add or subtract two equations
+
+Solve 3x3 systems using Cramer's rule
+
+Handles float coefficients and simple error checks
+
+Supports commands for interactive usage (num_vars, equation, column, add, subtract, solve, quit)
+
+🛠 Tech Stack
+
+Language: C++
+
+Compiler: Visual Studio (Windows) / any C++17 compatible compiler
+
+📂 Project Structure
+LinearEquationSolver/
+│
+├── LinearEquationSolver.sln        # Visual Studio solution file
+├── LinearEquationSolver.vcxproj    # Project file
+├── main.cpp                        # Main code
+└── README.md
+
+⚙️ Installation & Build
+
+Clone the repository:
+
+git clone https://github.com/username/LinearEquationSolver.git
+
+Open the .sln file in Visual Studio.
+
+Build the solution (Ctrl+Shift+B) or use Build → Build Solution.
+
+Run the project (F5 or Debug → Start Debugging).
+
+🧩 Usage
+
+Input format example:
+
+3
+x1+2x2-3x3=5
+2x1-4x2+6x3=-2
+x1+x2+x3=3
+
+Commands:
+
+num_vars → prints the number of variables
+
+equation <i> → prints equation number i
+
+column x<j> → prints column j of coefficients
+
+add <i> <j> → prints sum of equation i and j
+
+subtract <i> <j> → prints difference of equation i and j
+
+solve → solves the 3x3 system using Cramer's rule
+
+quit → exits the program
+
+⚠️ Limitations
+
+Only supports systems up to 3 variables for solving
+
+No GUI; console-based
+
+Minimal error handling for invalid input
+
+👨‍💻 Author
+
+Mohamed Ali
