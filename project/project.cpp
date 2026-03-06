@@ -169,7 +169,7 @@ int main() {
         }
         else if (cmd == "column") {
             string var; cin >> var;
-            int x = stoi(var.substr(1)) - 1; // x2 -> index 1
+            int x = stoi(var.substr(1)) - 1; 
             printColumn(x);
         }
         else if (cmd == "add") {
